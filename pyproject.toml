@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dts_validator"
+description = "A validator for the Distributed Text Services API specification"
+version = "0.1.0"
+authors = [
+    { name = "Ian Scott", email = "scottianw@gmail.com" }
+]
+dependencies = [
+    "flask"
+]
+
+[project.optional-dependencies]
+dev = [ ]

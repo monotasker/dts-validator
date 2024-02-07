@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index Page</title>
+  </head>
+  <body>
+    <h1>Welcome to the Distributed Text Services API validator</h1>
+    <p>
+      To validate your API, provide:
+      <ui>
+        <li>the base url where your DTS api endpoints can be found</li>
+        <li>
+          sample valid requests to each of the endpoints your implementation
+          supports
+        </li>
+        <li>
+          sample invalid requests to each of the endpoints your implementation
+          supports
+        </li>
+      </ui>
+      This validator will then test your API to ensure it meets the
+      requirements of the DTS specification. It will confirm whether:
+      <ui>
+        <li>your API is accessible</li>
+        <li>your API exposes the required endpoints</li>
+        <li>
+          for both valid and invalid requests that your API returns
+          <ul>
+            <li>the correct response codes</li>
+            <li>
+              json or xml response bodies that satisfy each endpoint's response
+              schema
+            </li>
+            <li>the required html link headers</li>
+          </ul>
+        </li>
+      </ui>
+    </p>
+  </body>
+</html>
